@@ -1,0 +1,23 @@
+.input-file{
+
+  .input-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .pic-preview{
+      width: 24px;
+      display: block;
+      margin-left: 10px;
+
+      img{
+        width: 100%;
+      }
+    }
+  }
+
+  .error-message{
+    font-size: 10px;
+    color: red;
+  }
+}

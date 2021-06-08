@@ -1,0 +1,46 @@
+.user-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-top: -1px;
+  border: 1px solid #ccc;
+
+  .small-avatar {
+    width: 24px;
+    height: 24px;
+  }
+
+  .large-avatar {
+    width: 64px;
+    height: 64px;
+  }
+
+  .user-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    float: left;
+    width: 85%;
+
+    .user-name{
+      display: block;
+      width: 100px;
+      padding: 0 10px;
+      color: #000;
+      text-transform: capitalize;
+    }
+
+    .birth-date{
+      color: #000;
+    }
+  }
+
+
+  .remove-user-btn{
+    width: 24px;
+    fill: red;
+    cursor: pointer;
+    float: right;
+  }
+}

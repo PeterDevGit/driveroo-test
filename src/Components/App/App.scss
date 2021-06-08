@@ -1,0 +1,37 @@
+body, header, footer, span, div,a, ul, li, input, button {
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+.App {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+input{
+  width: 100%;
+  margin-top: 3px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.label{
+  color: #989696
+}
+
+.react-datepicker-wrapper{
+  width: 100%;
+}
+
+input{
+  width: 100%;
+  margin-top: 3px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
